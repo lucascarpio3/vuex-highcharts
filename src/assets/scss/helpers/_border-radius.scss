@@ -1,0 +1,16 @@
+$radius: 3, 5, 50;
+
+@each $item in $radius {
+  .#{br}-#{$item} {
+    -webkit-border-radius: #{$item}px;
+    -moz-border-radius: #{$item}px;
+    border-radius: #{$item}px;
+  }
+  .#{br}-#{$item}-percent {
+    -webkit-border-radius: #{$item}#{'%'};
+    -moz-border-radius: #{$item}#{'%'};
+    border-radius: #{$item}#{'%'};
+  }
+}
+
+

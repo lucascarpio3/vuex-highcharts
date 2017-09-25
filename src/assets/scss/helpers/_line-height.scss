@@ -1,0 +1,12 @@
+$gutters-sizes: "0", "5", "10", "15", "16", "18", "20", "25", "30", "50", "70";
+
+@mixin generate-line-height-gutters($sizes) {
+  @each $item in $sizes {
+    .lh-#{$item} {
+      line-height: #{$item}px;
+    }
+  }
+}
+
+/* line-height */
+@include generate-line-height-gutters($gutters-sizes);

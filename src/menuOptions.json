@@ -1,0 +1,316 @@
+[
+  {
+    "text": "OPERAÇÃO",
+    "active":false,
+    "options": [
+      {
+        "text": "DIÁRIO",
+        "active":false,
+        "options": [
+          {
+            "text": "Operação Gráficos",
+            "active":false,
+            "action": "/diariooperacaograficos"
+          },
+          {
+            "text": " Crescimento Operação ",
+            "active":false,
+            "action": "/diariocrescimentooperacao"
+          },
+          {
+            "text": "Operação Sumarizado",
+            "active":false,
+            "action": "/diariooperacaosumarizado",
+            "presentation": "print"
+          },
+          {
+            "text": "ACD Operação",
+            "active":false,
+            "action": "/diarioacdoperacao"
+          },
+          {
+            "text": "ASR Operação",
+            "active":false,
+            "action": "/diarioasroperacao"
+          },
+          {
+            "text": "ShortCall",
+            "active":false,
+            "action": "/diariooperacaoshortcall"
+          },
+          {
+            "text": "Clientes Zerados",
+            "active":false,
+            "action": "/clienteszerados",
+            "presentation": "table"
+          },
+          {
+            "text": "Comparativo D-1 D-7 D-30",
+            "active":false,
+            "action": "/retroativooperacao"
+          }
+        ]
+      },
+      {
+        "text": "SEMANAL",
+        "active":false,
+        "options": [
+          {
+            "text": "Operação Gráficos",
+            "active":false,
+            "action": "/semanaloperacaografico"
+          },
+          {
+            "text": "ACD Operação",
+            "active":false,
+            "action": "/semanalacdoperacao"
+          },
+          {
+            "text": "ASR Operação",
+            "active":false,
+            "action": "/semanalasroperacao"
+          },
+          {
+            "text": "ShortCall",
+            "active":false,
+            "action": "/semanaloperacaohortcall"
+          }
+        ]
+      },
+      {
+        "text": "MENSAL",
+        "active":false,
+        "options": [
+          {
+            "text": "Operação Gráficos",
+            "active":false,
+            "action": "/mensaloperacaografico"
+          },
+          {
+            "text": "ACD Operação",
+            "active":false,
+            "action": "/mensalacdoperacao"
+          },
+          {
+            "text": "ASR Operação",
+            "active":false,
+            "action": "/mensalasroperacao"
+          },
+          {
+            "text": "ShortCall",
+            "active":false,
+            "action": "/mensaloperacaoshortcall"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "text": "CLIENTE",
+    "active":false,
+    "options": [
+      {
+        "text": "DIÁRIO",
+        "active":false,
+        "options": [
+          {
+            "text": "Valor e Minutos Cliente",
+            "active":false,
+            "action": "/diariocliente",
+            "needed": [
+              "cliente_id"
+            ]
+          },
+          {
+            "text": "Crescimento Valor Minutos Cliente",
+            "active":false,
+            "action": "/diariocrescimentocliente",
+            "needed": [
+              "cliente_id"
+            ]
+          },
+          {
+            "text": "Clientes Agrupados Por Tag Valores/Minutos",
+            "active":false,
+            "action": "/diarioclientebytag",
+            "needed": [
+              "tags"
+            ]
+          },
+          {
+            "text": "Clientes Agrupados Por Tag ASR",
+            "active":false,
+            "action": "/diarioclientetagasr",
+            "needed": [
+              "tags"
+            ]
+          },
+          {
+            "text": "Clientes Agrupados Por Tag ACD",
+            "active":false,
+            "action": "/diarioclientetagacd",
+            "needed": [
+              "tags"
+            ]
+          },
+          {
+            "text": "Clientes Agrupados Por Tag  ShortCall",
+            "active":false,
+            "action": "/diarioclientetagshortcall",
+            "needed": [
+              "tags"
+            ]
+          },
+          {
+            "text": "Comparativo Clientes Agrupados Por Tag D-1 D-7 D-30",
+            "active":false,
+            "action": "/retroativoclientebytag",
+            "needed": [
+              "tags"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "SEMANAL",
+        "active":false,
+        "options": [
+          {
+            "text": "Valor e Minutos Cliente",
+            "active":false,
+            "action": "/semanalcliente",
+            "needed": [
+              "cliente_id"
+            ]
+          },
+          {
+            "text": "Clientes Agrupados Por Tag Valores/Minutos",
+            "active":false,
+            "action": "/semanalclientebytag",
+            "needed": [
+              "tags"
+            ]
+          },
+          {
+            "text": "Clientes Agrupados Por Tag ASR",
+            "active":false,
+            "action": "/semanalclientetagasr",
+            "needed": [
+              "tags"
+            ]
+          },
+          {
+            "text": "Clientes Agrupados Por Tag ACD",
+            "active":false,
+            "action": "/semanalclientetagacd",
+            "needed": [
+              "tags"
+            ]
+          },
+          {
+            "text": "Clientes Agrupados Por Tag  ShortCall",
+            "active":false,
+            "action": "/semanalclientetagshortcall",
+            "needed": [
+              "tags"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "MENSAL",
+        "active":false,
+        "options": [
+          {
+            "text": "Valor e Minutos Cliente",
+            "active":false,
+            "action": "/mensalcliente",
+            "needed": [
+              "cliente_id"
+            ]
+          },
+          {
+            "text": "Clientes Agrupados Por Tag Valores/Minutos",
+            "active":false,
+            "action": "/mensalclientebytag",
+            "needed": [
+              "tags"
+            ]
+          },
+          {
+            "text": "Clientes Agrupados Por Tag ASR",
+            "active":false,
+            "action": "/mensalclientetagasr",
+            "needed": [
+              "tags"
+            ]
+          },
+          {
+            "text": "Clientes Agrupados Por Tag ACD",
+            "active":false,
+            "action": "/mensalclientetagacd",
+            "needed": [
+              "tags"
+            ]
+          },
+          {
+            "text": "Clientes Agrupados Por Tag  ShortCall",
+            "active":false,
+            "action": "/mensalclientetagshortcall",
+            "needed": [
+              "tags"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "text": "FORNECEDOR",
+    "active":false,
+    "options": [
+      {
+        "text": "DIARIO",
+        "active":false,
+        "options": [
+          {
+            "text": "Consumo Por Rota ",
+            "active":false,
+            "action": "/diariorotafornecedor",
+            "payload": {
+              "tipoTag": "TAGSROTASFORNECEDORES"
+            }
+          }
+        ]
+      },
+      {
+        "text": "SEMANAL",
+        "active":false,
+        "options": [
+          {
+            "text": "Consumo Por Rota",
+            "active":false,
+            "action": "/semanalrotafornecedor",
+            "payload": {
+              "tipoTag": "TAGSROTASFORNECEDORES"
+            }
+          }
+        ]
+      },
+      {
+        "text": "MENSAL",
+        "active":false,
+        "options": [
+          {
+            "text": "Consumo Por Rota",
+            "active":false,
+            "action": "/mensalrotafornecedor",
+            "payload": {
+              "tipoTag": "TAGSROTASFORNECEDORES"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

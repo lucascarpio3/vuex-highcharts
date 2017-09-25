@@ -1,0 +1,199 @@
+.typo {
+  &--white {
+    color: $color-white !important;
+  }
+
+  &--black {
+    color: $color-mine-shaft !important;
+  }
+
+  &--bold {
+    font-family: 'officinaSerifBold';
+  }
+  &--underline {
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  &-arrow {
+    &::before {
+      content: '» ';
+    }
+  }
+
+  &--underline {
+    text-decoration: underline;
+  }
+
+  &-title {
+    &--0 {
+      font-size: 4.4rem;
+      color: $color-dove-gray;
+    }
+
+    &--1 {
+      font-size: 3.4rem;
+      color: $color-seance;
+    }
+
+    &--2 {
+      font-size: 2.6rem;
+      color: $color-seance;
+    }
+
+    &--3 {
+      font-size: 1.4rem;
+      color: $color-seance;
+    }
+
+    &--4 {
+      font-size: 2.0rem;
+      color: $color-white;
+    }
+
+    &--5 {
+      font-size: 1.5rem;
+      color: $color-seance;
+    }
+    &--6 {
+      font-size: 2.0rem;
+      color: $color-seance;
+    }
+    &--7 {
+      font-size: 3.6rem;
+      color: $color-seance;
+    }
+    &--8 {
+      font-size: 1.2rem;
+      color: $color-seance;
+    }
+    &--9 {
+      font-size: 3.0rem;
+      color: $color-seance;
+    }
+    &--9-w {
+      font-size: 3.0rem;
+      color: white;
+    }
+    &--10 {
+      font-size: 1.7rem;
+      color: $color-seance;
+    }
+    &--11 {
+      font-size: 3.2rem;
+      color: $color-seance;
+    }
+    &--12 {
+      font-size: 3.0rem;
+      color: $color-mine-shaft;
+    }
+    &--13 {
+      font-size: 3.6rem;
+      color: $color-white
+    }
+    &--14 {
+      font-size: 3.4rem;
+      color: $color-mine-shaft;
+    }
+    &--15 {
+      font-size: 1.8rem;
+      color: $color-white;
+    }
+  }
+
+  &-p {
+    &--0 {
+      font-size: 1.2rem;
+      color: $color-dove-gray;
+    }
+    &--1 {
+      font-size: 1.4rem;
+      color: $color-dove-gray;
+    }
+    &--2 {
+      font-size: 1.6rem;
+      color: $color-dove-gray;
+    }
+    &--3 {
+      font-size: 1.8rem;
+      color: $color-dove-gray;
+    }
+    &--4 {
+      font-size: 1.6rem;
+      color: $color-white;
+    }
+    &--5 {
+      font-size: 1.5rem;
+      color: $color-mine-shaft;
+    }
+    &--6 {
+      font-size: 1.4rem;
+      color: $color-mine-shaft;
+    }
+    &--7 {
+      font-size: 1.3rem;
+      color: $color-dusty-gray;
+    }
+    &--8 {
+      font-size: 1.0rem;
+      color: $color-dove-gray;
+    }
+    &--9 {
+      font-size: 1.6rem;
+      color: $color-dusty-gray;
+    }
+    &--10 {
+      font-size: 2.0rem;
+      color: $color-dove-gray;
+    }
+    &--11 {
+      font-size: 1.6rem;
+      color: $color-seance;
+    }
+    &--12 {
+      font-size: 1.8rem;
+      color: $color-mine-shaft;
+    }
+    &--13 {
+      font-size: 2.0rem;
+      color: $color-mine-shaft;
+    }
+    &--14 {
+      font-size: 2.4rem;
+      color: $color-seance;
+    }
+    &--15 {
+      font-size: 1.3rem;
+      color: $color-dove-gray;
+    }
+    &--16 {
+      font-size: 1.3rem;
+      color: $color-seance;
+    }
+    &--17 {
+      font-size: 1.2rem;
+      color: $color-white;
+    }
+    &--18 {
+      font-size: 1.2rem;
+      color: $color-seance;
+    }
+    &--19 {
+      font-size: 2.0rem;
+      color: $color-black;
+    }
+    &--20 {
+      font-size: 3.0rem;
+      color: $color-black;
+    }
+    &--21 {
+      font-size: 1.4rem;
+      color: $color-dusty-gray;
+    }
+  }
+  &-small {
+    &--0 {
+      color: red;
+      font-size: 1.1rem;
+    }
+  }
+}

@@ -1,0 +1,93 @@
+.full-width {
+  width: 100%;
+}
+
+.half-width {
+  width: 50%;
+}
+
+.quarter-width {
+  width: 25%;
+}
+
+.full-height {
+  min-height: 90vh;
+}
+
+.main-limiter {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.v-align-middle {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.v-align-bottom {
+  vertical-align: bottom;
+}
+
+.position {
+  &--relative {
+    position: relative;
+  }
+
+  &--absolute {
+    position: absolute;
+  }
+
+  &--fixed {
+    position: fixed;
+  }
+}
+
+.inline {
+  display: inline;
+
+  &-block {
+    display: inline-block;
+  }
+}
+
+.component-center {
+  margin: 0 auto;
+}
+
+.hidden {
+  display: none;
+}
+
+.pull-left {
+  float: left;
+}
+
+.pull-right {
+  float: right;
+}
+
+.clear {
+  clear:both;
+}
+.float-none {
+  float: none;
+}
+
+.decoration {
+  &-none {
+    text-decoration: none !important;
+  }
+}
+
+.bring-to-front {
+  &-1 {
+    z-index:1;
+  }
+}
+
+@media screen and (max-width: $screen-xs-max) {
+  .main-limiter {
+    width: auto;
+  }
+}
+

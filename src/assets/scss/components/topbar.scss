@@ -1,0 +1,21 @@
+.topbar {
+  display: flex;
+  height: 42px;
+  padding: 8px 10px;
+  background: $teal;
+  &.fixed {
+    margin-left: -329px;
+    z-index: 10;
+    position: fixed;
+    width: 100vw;
+    top: 0;
+  }
+  label {
+    font-size: 1.4rem;
+    margin: 2px 5px 0 10px;
+    color: $white;
+  }
+  &.active {
+    color: white;
+  }
+}

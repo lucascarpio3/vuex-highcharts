@@ -1,0 +1,42 @@
+.border {
+  &--none {
+    border: none;
+  }
+
+  &--dusty-gray {
+    &--1 {
+      border: solid 1px $color-dusty-gray;
+
+      &--left {
+        border: solid 1px $color-dusty-gray;
+      }
+    }
+  }
+
+  &--silver {
+    &--1 {
+      border: solid 1px $color-silver;
+
+      &--right {
+        border-right: solid 1px $color-silver;
+      }
+
+      &--bottom {
+        border-bottom: solid 1px $color-silver;
+      }
+    }
+  }
+
+  &--mercury {
+    &--1 {
+      border: solid 1px $color-mercury;
+
+      &--top {
+        border-top: solid 1px $color-mercury;
+      }
+      &--bottom {
+        border-bottom: solid 1px $color-mercury;
+      }
+    }
+  }
+}

@@ -1,0 +1,50 @@
+.bkg {
+  &-white {
+    background: $color-white;
+  }
+  &-alabaster {
+    background: $color-alabaster;
+  }
+  &-concrete {
+    background: $color-concrete;
+  }
+  &-mercury {
+    background: $color-mercury;
+  }
+  &-iron {
+    background: $color-iron;
+  }
+  &-nobel {
+    background: $color-nobel;
+  }
+  &-tangerine {
+    background: $color-tangerine;
+  }
+  &-mine-shaft {
+    background: $color-mine-shaft;
+  }
+  &-seance {
+    background: $color-seance;
+  }
+  &-athens-gray {
+    background: $color-athens-gray;
+  }
+
+  &-gradient {
+    &--1 {
+      background: #ffffff;
+      background: -moz-linear-gradient(top, #ffffff 80%, #f8f8f8 100%);
+      background: -webkit-linear-gradient(top, #ffffff 80%, #f8f8f8 100%);
+      background: linear-gradient(to bottom, #ffffff 80%, #f8f8f8 100%);
+      filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#f8f8f8', GradientType=0);
+    }
+
+    &--2 {
+      background: #ffffff;
+      background: -moz-linear-gradient(top, #ffffff 80%, #f5f5f5 100%);
+      background: -webkit-linear-gradient(top, #ffffff 80%, #f5f5f5 100%);
+      background: linear-gradient(to bottom, #ffffff 80%, #f5f5f5 100%);
+      filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#f5f5f5', GradientType=0);
+    }
+  }
+}

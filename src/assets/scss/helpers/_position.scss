@@ -1,0 +1,21 @@
+$gutters-sizes: "0", "5", "10", "15", "20", "25", "30", "50", "70";
+
+@mixin generate-position-gutters($prefix, $direction, $sizes) {
+    @each $item in $sizes {
+        .#{$prefix}-#{$item} {
+            #{$direction}: #{$item}px;
+        }
+    }
+}
+
+/* position top */
+@include generate-position-gutters(pst, top, $gutters-sizes);
+
+/* position bottom */
+@include generate-position-gutters(psb, bottom, $gutters-sizes);
+
+/* position left */
+@include generate-position-gutters(psl, left, $gutters-sizes);
+
+/* position right */
+@include generate-position-gutters(psr, right, $gutters-sizes);

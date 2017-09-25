@@ -1,0 +1,51 @@
+$gutters-sizes: "0", "2", "3", "5", "10", "15", "20", "25", "30", "50", "60", "70", "130";
+
+@mixin generate-padding-gutters($prefix, $direction, $sizes) {
+  @each $item in $sizes {
+    @if $prefix == 'ph' {
+      .#{$prefix}-#{$item} {
+        padding-left: #{$item}px;
+        padding-right: #{$item}px;
+      }
+    }
+    @if $prefix == 'pv' {
+      .#{$prefix}-#{$item} {
+        padding-top: #{$item}px;
+        padding-bottom: #{$item}px;
+      }
+    }
+    @if $prefix == 'pd' {
+      .#{$prefix}-#{$item} {
+        padding: #{$item}px;
+      }
+    }
+    @else {
+      .#{$prefix}-#{$item} {
+        padding-#{$direction}: #{$item}px;
+      }
+    }
+  }
+}
+
+/* padding top */
+@include generate-padding-gutters(pt, top, $gutters-sizes);
+
+/* padding bottom */
+@include generate-padding-gutters(pb, bottom, $gutters-sizes);
+
+/* padding left */
+@include generate-padding-gutters(pl, left, $gutters-sizes);
+
+/* padding right */
+@include generate-padding-gutters(pr, right, $gutters-sizes);
+
+/* padding vertical */
+@include generate-padding-gutters(pv, ver, $gutters-sizes);
+
+/* padding horizontal */
+@include generate-padding-gutters(ph, hor, $gutters-sizes);
+
+/* padding horizontal */
+@include generate-padding-gutters(pd, total, $gutters-sizes);
+
+

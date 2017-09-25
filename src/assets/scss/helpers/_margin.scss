@@ -1,0 +1,40 @@
+$gutters-sizes: "0", "2", "5", "10", "15", "20", "25", "30", "50", "70";
+
+@mixin generate-margin-gutters($prefix, $direction, $sizes) {
+  @each $item in $sizes {
+    @if $prefix == 'mh' {
+      .#{$prefix}-#{$item} {
+        margin-left: #{$item}px;
+        margin-right: #{$item}px;
+      }
+    }
+    @if $prefix == 'mv' {
+      .#{$prefix}-#{$item} {
+        margin-top: #{$item}px;
+        margin-bottom: #{$item}px;
+      }
+    } @else {
+      .#{$prefix}-#{$item} {
+        margin-#{$direction}: #{$item}px !important;
+      }
+    }
+  }
+}
+
+/* margin top */
+@include generate-margin-gutters(mt, top, $gutters-sizes);
+
+/* margin bottom */
+@include generate-margin-gutters(mb, bottom, $gutters-sizes);
+
+/* margin left */
+@include generate-margin-gutters(ml, left, $gutters-sizes);
+
+/* margin right */
+@include generate-margin-gutters(mr, right, $gutters-sizes);
+
+/* margin vertical */
+@include generate-margin-gutters(mv, ver, $gutters-sizes);
+
+/* margin horizontal */
+@include generate-margin-gutters(mh, hor, $gutters-sizes);
